@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+<title>Satya Sagar - An Ethical Hacker & Blogger </title>
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="stylesheets/w3.css">
+<link rel="stylesheet" href="stylesheets/font-montserrat.css">
+<link rel="stylesheet" href="stylesheets/font-prestige-elite.css">
+<link rel="stylesheet" href="stylesheets/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="stylesheets/timeline-style.css">
+<script src="js/modernizr.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/main.js"></script>
+<!-- TrafficGuard Integration -->
+<script>
+    var dataTrafficGuard = dataTrafficGuard || [];
+    dataTrafficGuard.push(['property', 'tg-013935-001']);
+    dataTrafficGuard.push(['event','pageview']);
+    (function() {var tg = document.createElement('script'); tg.type = 'text/javascript'; tg.async = true; tg.src = '../tgtag.io/tg81e1.js?pid=tg-013935-001';var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(tg, s);})();
+</script>
+<noscript><img src="http://p.tgtag.io/event?property_id=tg-013935-001&amp;event_name=pageview&amp;no_script=1" width="1" height="1" border="0"/></noscript>
+<!-- TrafficGuard End-->
+<style>
+  html{scroll-behavior: smooth;}
+body {font-family: sans-serif}
+li{font-family: sans-serif}
+h1,h2,h3,h4,h5,h6 {font-family: "Prestige Elite Normal", sans-serif;}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidenav to 120px */
+.w3-sidenav {width: 120px; background: #1c1c1c;}
+/* Add a left margin to the "page content" that matches the width of the sidenav (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+input{
+  font-weight: bolder;
+  background-color: #1c1c1c;
+  color: #d0d0d0;
+}
+.blink {
+  animation-duration: 300ms;
+  animation-name: blink;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes blink{
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+hr{
+  border-color: #00F211;
+}
+.hacker-green{
+  font-family: "Prestige Elite Normal";
+  color: #00F211;
+}
+.hacker-green-color{
+  color: #00F211;
+}
+.special{
+  border: 0.3px solid #00F211;
+}
+nav > a{
+  transition: 1s;
+}
+nav > a:hover{
+  border: 2px solid green;
+}
+nav > a:hover p{
+  transform: scale(1.1);
+  font-weight: bold;
+}
+#contact{
+  display: flex;
+}
+#contact > div{
+  width: 50%;
+}
+#contactBox > i{
+  transform: scale(2);
+  margin: 10px;
+}
+#formBox{
+  display: flex;
+  justify-content: end;
+}
+#formBox > form{
+  width: 100%;
+}
+#formBox > form > p > button{
+  transition: 0.5s;
+}
+#formBox > form > p > button:hover{
+  box-shadow: 2px 2px white;
+}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidenav - hidden on small screens) -->
+<nav class="w3-sidenav w3-center w3-small w3-hide-small">
+  <!-- Avatar image in top left corner -->
+  <!--<img src="img/photo1-bw.jpg" style="width:100%">-->
+  <a class="w3-padding-xlarge w3-black" href="#">
+    <p class="w3-tiny w3-slim hacker-green-color">SATYA</p>
+  </a>
+  <a class="w3-padding-large w3-hover-black" href="#skillset">
+    <p class="w3-tiny w3-slim">SKILLSET</p>
+  </a>
+  <a class="w3-padding-large w3-hover-black" href="#achievements">
+    <p class="w3-tiny w3-slim">ACHIEVEMENTS</p>
+  </a>
+  <a class="w3-padding-large w3-hover-black" href="#contact">
+    <p class="w3-tiny w3-slim">CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <ul class="w3-navbar w3-black w3-opacity w3-hover-opacity-off w3-tiny">
+    <li class="w3-left hacker-green-color" style="width:18% !important"><a href="#">SATYA</a></li>
+    <li class="w3-left" style="width:18% !important"><a href="#skillset">SKILLSET</a></li>
+    <li class="w3-left" style="width:28% !important"><a href="#achievements">ACHIEVEMENTS</a></li>
+    <li class="w3-left" style="width:18% !important"><a href="#contact">CONTACT</a></li>
+  </ul>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-xxxlarge"><span class="w3-hide-small">I'm</span> SATYA<b class="blink">_</b></h1>
+    <p class="hacker-green"><b>An Ethical Hacker & Blogger.</b></p>
+    <!--<img src="img/photo1-bw.jpg" alt="Shashank" class="w3-image" width="992" height="1108">-->
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="skillset">
+    <center><h2 class="w3-text-light-grey">SATYA SAGAR NAGESH</h2>
+    <hr style="width:200px" class="w3-opacity"></center>
+      <!--<img src="img/photo2-bw.jpg" alt="Shashank" class="w3-image w3-third w3-row-padding w3-hide-small" >-->
+      <p class="w3-rest" style="color: #d0d0d0; ">I am a B.Tech student with specialization in Cyber Security & Digital Forensics. 
+I am an ethical hacker by profession with a 4 year experience of web application security.
+
+I am currently working as a part-time security researcher at Bugcrowd.
+I am a listed Bug Bounty hunter by Immutable and Coderzcolumn.
+      </p>
+      <br><br>
+    <center><h2 class="w3-text-light-grey">My Skillset</h2>
+    <hr style="width:200px" class="w3-opacity"></center>
+    <p class="w3-wide">Networking</p>
+    <div class="w3-progress-container" style="background: #1c1c1c">
+      <div class="w3-progressbar" style="width:80%;"></div>
+    </div>
+    <p class="w3-wide">Pentesting</p>
+    <div class="w3-progress-container" style="background: #1c1c1c">
+      <div class="w3-progressbar" style="width:85%"></div>
+    </div>
+    <p class="w3-wide">Bash</p>
+    <div class="w3-progress-container" style="background: #1c1c1c">
+      <div class="w3-progressbar" style="width:60%"></div>
+    </div><br>
+    <div class="w3-row w3-center w3-padding-16 w3-section hacker-green-color special" style="font-family: Prestige Elite Normal;">
+      <div class="w3-third w3-section">
+        <span class="w3-xlarge">1</span><br>
+        Bug Bounties
+      </div>
+      <div class="w3-third w3-section">
+        <span class="w3-xlarge">4 Years</span><br>
+        Experience
+      </div>
+      <div class="w3-third w3-section">
+        <span class="w3-xlarge">1</span><br>
+        Special Mentions
+      </div>
+    </div>
+    <br><br>
+
+<!-- Testimonials -->
+<!--<center><h2 class="w3-text-light-grey" id="achievements">Special Mentions</h2>
+    <hr style="width:200px" class="w3-opacity"></center>    
+
+    <div class="w3-layout-container" style="color: #d0d0d0">
+
+      <div class="w3-container w3-layout-cell">
+        <img src="Satya\img\appreciate.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+      </div>
+
+      <div class="w3-container w3-layout-cell">
+        <img src="img/photo2-bw.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+      </div>
+
+    </div>-->
+
+
+
+<!-- Achievements Section -->
+    <center><h2 class="w3-text-light-grey" id="achievements">Achievements Timeline</h2>
+    <hr style="width:300px" class="w3-opacity"></center>
+
+  <section id="cd-timeline" class="cd-container">
+    <div class="cd-timeline-block">
+      <div class="cd-timeline-img cd-picture">
+      </div> <!-- cd-timeline-img -->
+
+      <div class="cd-timeline-content">
+        <h2>Advent of Cyber 2022</h2>
+        <p> Advent of Cyber 2022, the fourth edition of TryHackMe's annual event, stood out with its expanded coverage of cybersecurity topics, including cloud security and reverse engineering, while remaining beginner-friendly.</p>
+        <!--<a href="#0" class="cd-read-more">Read more</a>-->
+        <span class="cd-date">Dec 2022</span>
+      </div> <!-- cd-timeline-content -->
+    </div> <!-- cd-timeline-block -->
+
+    <div class="cd-timeline-block">
+      <div class="cd-timeline-img cd-movie">
+      </div> <!-- cd-timeline-img -->
+
+      <div class="cd-timeline-content">
+        <h2>Online Internship</h2>
+        <p>Completed an Internship with InternsElite. This Internship covers the basic cyber security topics, some of them are Networking, IoT Devices, Digital Forensics</p>
+        <!--<a href="#0" class="cd-read-more">Read more</a>-->
+        <span class="cd-date">Aug 2023</span>
+      </div> <!-- cd-timeline-content -->
+    </div> <!-- cd-timeline-block -->
+
+    <div class="cd-timeline-block">
+      <div class="cd-timeline-img cd-picture">
+      </div> <!-- cd-timeline-img -->
+
+      <div class="cd-timeline-content">
+        <h2>Bits & Bytes of Computer Networking</h2>
+        <p>
+          The "Bits and Bytes of Computer Networking" certification, part of the Google IT Support Professional Certificate on Coursera, offers a comprehensive introduction to computer networking.</p>
+        <!--<a href="#0" class="cd-read-more">Read more</a>-->
+        <span class="cd-date">Dec 2023</span>
+      </div> <!-- cd-timeline-content -->
+    </div> <!-- cd-timeline-block -->
+
+    <div class="cd-timeline-block">
+      <div class="cd-timeline-img cd-location">
+      </div> <!-- cd-timeline-img -->
+
+      <div class="cd-timeline-content">
+        <h2>Advent of Cyber 2023</h2>
+        <p>Advent of Cyber 2023 introduced several unique features that set it apart from previous years. This edition emphasized more advanced, hands-on cybersecurity challenges while maintaining its accessibility for beginners.</p>
+        <!--<a href="#0" class="cd-read-more">Read more</a>-->
+        <span class="cd-date">Dec 2023</span>
+      </div> <!-- cd-timeline-content -->
+    </div> <!-- cd-timeline-block -->
+
+    <div class="cd-timeline-block">
+      <div class="cd-timeline-img cd-location">
+      </div> <!-- cd-timeline-img -->
+
+      <div class="cd-timeline-content">
+        <h2>ISC2 Candidate</h2>
+        <p>The ISC² Certified in Cybersecurity (CC) certification is an entry-level credential designed to provide a strong foundation in cybersecurity for individuals new to the field. It covers essential topics such as security principles, access controls, network security, and incident response.</p>
+        <!--<a href="#0" class="cd-read-more">Read more</a>-->
+        <span class="cd-date">Jun 2024</span>
+      </div> <!-- cd-timeline-content -->
+    </div> <!-- cd-timeline-block -->
+
+    <div class="cd-timeline-block">
+      <div class="cd-timeline-img cd-movie">
+      </div> <!-- cd-timeline-img -->
+
+      <div class="cd-timeline-content">
+        <h2>Final Section</h2>
+        <p>Preparation for CPTS (Certified Penetration Testing Specialist)</p>
+        <span class="cd-date">2024</span>
+      </div> <!-- cd-timeline-content -->
+    </div> <!-- cd-timeline-block -->
+  </section> <!-- cd-timeline -->
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <div id="contactBox">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p style="color: #d0d0d0">Lets get in touch. Send me a message:</p>
+    <i class="fa fa-facebook-official w3-hover-text-indigo"></i>
+    <i class="fa fa-instagram w3-hover-text-purple"></i>
+    <i class="fa fa-snapchat w3-hover-text-yellow"></i>
+    <i class="fa fa-pinterest-p w3-hover-text-red"></i>
+    <i class="fa fa-twitter w3-hover-text-light-blue"></i>
+    <i class="fa fa-linkedin w3-hover-text-indigo"></i>
+    </div>
+    <div id="formBox">
+    <form action="https://Satya/form.asp" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-btn w3-dark-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i>SEND MESSAGE
+        </button>
+      </p>
+    </form>
+    </div>
+  <!-- End Contact Section -->
+  </div>
+  <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
